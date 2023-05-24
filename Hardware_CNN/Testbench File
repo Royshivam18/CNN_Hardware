@@ -1,0 +1,28 @@
+module tb();
+
+    reg[7:0] a, b;
+    reg clk, rst, clr, en_mac, en_mac_out;
+    wire [17:0] Y;
+    
+    initial begin
+         a = 8'b0; b = 8'b0; rst = 1'b1; clk = 1'b1; clr = 1'b0; en_mac = 1'b1; en_mac_out = 1'b1;
+    end
+    Mac_multiplier_1 #(8)
+    MAC(.clk(clk),.rst(rst),.clr(clr),.en_mac(en_mac),.a(a),.b(b),.en_mac_out(en_mac_out),.Y(Y)); 
+    
+    always begin
+    clk = ~clk;
+    #5;
+    end
+    
+    initial
+        begin
+            $monitor("a = %b, b = %b, Y = %b", a, b, Y);
+            #5; a = 8; b = 9;
+            #5; a = 2; b = 4;
+            #5; a = 5; b = 6;
+            $finish;
+        end
+            
+            
+endmodule
