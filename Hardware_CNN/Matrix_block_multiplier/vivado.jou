@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Tue May 23 17:09:53 2023
+# Process ID: 15616
+# Current directory: C:/Users/Shivam/OneDrive - IIT Kanpur/Desktop/Hardware_CNN/Matrix_block_multiplier
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12976 C:\Users\Shivam\OneDrive - IIT Kanpur\Desktop\Hardware_CNN\Matrix_block_multiplier\Matrix_block_multiplier.xpr
+# Log file: C:/Users/Shivam/OneDrive - IIT Kanpur/Desktop/Hardware_CNN/Matrix_block_multiplier/vivado.log
+# Journal file: C:/Users/Shivam/OneDrive - IIT Kanpur/Desktop/Hardware_CNN/Matrix_block_multiplier\vivado.jou
+# Running On: DESKTOP-SB3I0JC, OS: Windows, CPU Frequency: 2096 MHz, CPU Physical cores: 12, Host memory: 16456 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Shivam/OneDrive - IIT Kanpur/Desktop/Hardware_CNN/Matrix_block_multiplier/Matrix_block_multiplier.xpr}
+update_compile_order -fileset sources_1
